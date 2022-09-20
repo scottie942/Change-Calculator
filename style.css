@@ -1,15 +1,13 @@
-
 .container {
-   background-color: white;
-   border-radius: 30px;
-
+    background-color: white;
+    border-radius: 30px;
 }
 
 body {
-    background: url(./money.png) fixed ;
+    background: url(./money.png) fixed;
     background-repeat: no-repeat;
-background-size: cover;
-font-family: Arial, Helvetica, sans-serif;
+    background-size: cover;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 #all-outputs {
@@ -25,11 +23,9 @@ font-family: Arial, Helvetica, sans-serif;
 #dollars-output {
     font-weight: 700;
     font-size: 25px;
-
-background: url(./white-box.png) center;
-background-repeat: no-repeat;
+    background: url(./white-box.png) center;
+    background-repeat: no-repeat;
     background-size: 70px 30px;
-    
 }
 
 #quarters-output {
@@ -37,15 +33,14 @@ background-repeat: no-repeat;
     font-size: 25px;
     background: url(./white-box.png) center;
     background-repeat: no-repeat;
-        background-size: 70px 30px;
-
+    background-size: 70px 30px;
 }
 
 #dimes-output {
     font-weight: 700;
     font-size: 25px;
     background: url(./white-box.png) center;
-background-repeat: no-repeat;
+    background-repeat: no-repeat;
     background-size: 70px 30px;
 }
 
@@ -53,7 +48,7 @@ background-repeat: no-repeat;
     font-weight: 700;
     font-size: 25px;
     background: url(./white-box.png) center;
-background-repeat: no-repeat;
+    background-repeat: no-repeat;
     background-size: 70px 30px;
 }
 
@@ -61,10 +56,9 @@ background-repeat: no-repeat;
     font-weight: 700;
     font-size: 25px;
     background: url(./white-box.png) center;
-background-repeat: no-repeat;
+    background-repeat: no-repeat;
     background-size: 70px 30px;
 }
-
 
 #change-output {
     font-size: 25px;
