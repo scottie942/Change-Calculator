@@ -1,7 +1,4 @@
 <!DOCTYPE html>
-
-
-
 <html>
   <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,84 +6,69 @@
     <title>Change Calculator</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
     <link href='./style.css' rel='stylesheet'>
-  </head> 
-  <div class= "position-absolute top-0 start-50 translate-middle-x">
-  <body>
-<div class="container">
-  <br>
-    <h1 class = "text-center">Change Calculator</h1>
-  <div class="row">
-    <div class="col">
-    </div>
-    <div class="col-8">
-      <h6 class = "text-center" id = "due-title"></h6>
+  </head>
   
-<div class="input-group mb-3">
-  <span class="input-group-text">$</span>
-  <input id="amount-due" placeholder="Amount Due" type="text" class="form-control" aria-label="Amount (to the nearest dollar)">
-  </div>
-
-  <h6 class="text-center" id="received-title"></h6>
-
-  <div class="input-group mb-3">
-    <span class="input-group-text">$</span>
-    <input id="amount-received" placeholder="Amount Received" type="text" class="form-control" aria-label="Amount (to the nearest dollar)">
-</div>
-
+  <div class= "position-absolute top-0 start-50 translate-middle-x">
+    <body>
+      <div class="container">
+        <br>
+        <h1 class = "text-center">Change Calculator</h1>
+        <div class="row">
+          <div class="col"></div>
+          <div class="col-8">
+            <h6 class = "text-center" id = "due-title"></h6>
+            <div class="input-group mb-3">
+              <span class="input-group-text">$</span>
+              <input id="amount-due" placeholder="Amount Due" type="text" class="form-control" aria-label="Amount (to the nearest dollar)">
+            </div>
+            <h6 class="text-center" id="received-title"></h6>
+            <div class="input-group mb-3">
+              <span class="input-group-text">$</span>
+              <input id="amount-received" placeholder="Amount Received" type="text" class="form-control" aria-label="Amount (to the nearest dollar)">
+            </div>
+          </div>
+          <div class="col"></div>
         </div>
-        <div class="col">
-        
+        <div class="row">
+          <div class="col"></div>
+          <div class = "text-center" class="col-5">
+            <button id="calculate-change">Calculate!</button>
+            &nbsp;
+            <button id="clear-button">Clear</button>
+            <p id="cents-output"></p>
+            <p id="change-output"></p>
+          </div>
+          <div class="col"></div>
+          <div class = "row"></div>
         </div>
       </div>
+    </div>
+    
+    <div id = "all-outputs" class ="text-center">
       <div class="row">
         <div class="col">
-         
+          <p id = "dollars" class="fs-4"></p>
+          <p class= "text-center" id="dollars-output"></p>
         </div>
-        <div class = "text-center" class="col-5">
-          
-          <button id="calculate-change">Calculate!</button>
-          &nbsp;
-          <button id="clear-button">Clear</button>
-          <p id="cents-output"></p>
-        <p id="change-output"></p>
+        <div class="col">
+          <p id ="quarters" class="fs-4"></p>
+          <p class= "text-center" id="quarters-output"></p>
         </div>
-        <div class="col">  
+        <div class="col">
+          <p id = "dimes" class="fs-4"></p>
+          <p class= "text-center" id="dimes-output"></p>
         </div>
-        <div class = "row">
+        <div class="col">
+          <p id = "nickels" class="fs-4"></p>
+          <p class= "text-center" id="nickels-output"></p>
         </div>
+        <div class="col">
+          <p id = "pennies" class="fs-4"></p>
+          <p class= "text-center" id="pennies-output"></p>
+        </div>
+        <div class = "row"></div>
       </div>
-    </div>
-  </div>
-  <div id = "all-outputs"  class ="text-center">
-    <!-- class="position-relative top-50 start-50 translate-middle" -->
-  <div class="row">
-    <div class="col">
-     <p id = "dollars" class="fs-4"></p>
-<p class= "text-center" id="dollars-output"></p>
-    </div>
-    <div class="col">
-      <p id ="quarters" class="fs-4"></p>
-<p class= "text-center" id="quarters-output"></p>
-    </div>
-    <div class="col"> 
-      <p id = "dimes" class="fs-4"></p>
-      <p class= "text-center" id="dimes-output"></p>
-    </div>
-    <div class="col"> 
-      <p id = "nickels" class="fs-4"></p>
-<p class= "text-center" id="nickels-output"></p>
-    </div>
-    <div class="col"> 
-      <p id = "pennies" class="fs-4"></p>
-<p class= "text-center" id="pennies-output"></p>
-    </div>
-    <div class = "row">
-    </div>
-  </div>
-
-
+      
       <script src="main.js" charset="utf-8"></script>
-  </body>
-
-
+    </body>
 </html>
